@@ -19,9 +19,11 @@ return product
 end
 
 def modulo(num1, num2)
-mod = num1
+mod = num1%num2
+return mod 
 end
 
 def square_root(num)
-
+sqroot = num**(0.5)
+return sqroot
 end
